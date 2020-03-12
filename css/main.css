@@ -1,13 +1,7 @@
-html{
-    width: 100%;
-    height: 100%;
-}
-.tudo{
-    min-height: 100%;
-}
+
 body{
     width: 100%;
-    height: 100%;
+    height: 640px;
     margin: 0 auto;
     background-color: #252323;
 }
@@ -228,7 +222,7 @@ li.slick-active button{
     
     width: 980px;  
     bottom: 0;
-    position: absolute;
+    position: relative;
     border-top: 3px solid #8b8b8b;
     display: flex;
     justify-content: space-around;
