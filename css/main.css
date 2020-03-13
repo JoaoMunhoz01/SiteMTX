@@ -74,9 +74,20 @@ main{
     
 }
 .menu ul li{
-    display: inline-block;
+    display: flex;
+    
+    flex-direction: row;
     color: #8b8b8b;
     margin-left: 15px;
+}
+.menu ul{
+   
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        color: #8b8b8b;
+        margin-left: 15px;
+    
 }
 
 .menu ul li a{
