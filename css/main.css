@@ -218,7 +218,7 @@ li.slick-active button {
 
 .header-4 {
   bottom: 0;
-
+  margin-top: 50px;
   position: fixed;
   border-top: 3px solid #8b8b8b;
   display: flex;
@@ -332,4 +332,9 @@ li.slick-active button {
 }
 .header5 {
   background-color: transparent;
+
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  width: 100%;
 }
