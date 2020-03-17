@@ -1,345 +1,335 @@
-html{
-    width: 100%;
-    height: 100px;
+html {
+  width: 100%;
+  height: 100px;
 }
 
-body{
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    background-color: #252323;
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #252323;
 }
-ul{
-    padding: 0px!important;
+ul {
+  padding: 0px !important;
 }
-.menu-principal{
-    background-color:#252323;
-    height: 150px;
-    display: flex;
-    justify-content: space-around;
+.menu-principal {
+  background-color: #252323;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
 }
-main{
-    margin: 0 auto;
-    width: 980px;  
-    position: relative;
-} 
-.logo{
-    display: flex;
-    justify-content: space-around;
-    padding: 8px;
-    width: 70%;
-    
+main {
+  margin: 0 auto;
+  width: 980px;
+  position: relative;
 }
-.redes-sociais ul li{
-    margin-left: 25px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
-    float: left;
-    list-style: none;
+.logo {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px;
+  width: 70%;
 }
-.redes-sociais{
-    width: 25%;
-    float: right;
+.redes-sociais ul li {
+  margin-left: 25px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  float: left;
+  list-style: none;
+}
+.redes-sociais {
+  width: 25%;
+  float: right;
+  display: flex;
+  justify-content: space-around;
 }
 
-.redes-sociais ul li:hover{
-    
-    opacity: 50%;
-    float: left;
-    list-style: none;
-    
-    
+.redes-sociais ul li:hover {
+  opacity: 50%;
+  float: left;
+  list-style: none;
 }
 
 .header-1 {
-    display: flex;
-    flex-direction : row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.header-2{
-    background-color: #252323;
-    width: 980px;
-    margin: 0 auto;
-    padding: 0px;
-    display: flex;
-    
+.header-2 {
+  background-color: #252323;
+  width: 980px;
+  margin: 0 auto;
+  padding: 0px;
+  display: flex;
 }
-.menu-urls{
-    border-bottom: 3px solid #8b8b8b;
-    padding: 0px;
-    height: 52px;
-    display: flex;
-    justify-content: space-around;
-    
+.menu-urls {
+  border-bottom: 3px solid #8b8b8b;
+  padding: 0px;
+  height: 52px;
+  display: flex;
+  justify-content: space-around;
 }
-.menu ul li{
-    display: flex;
-    
-    flex-direction: row;
-    color: #8b8b8b;
-    margin-left: 15px;
+.menu ul li {
+  display: flex;
+
+  flex-direction: row;
+  color: #8b8b8b;
+  margin-left: 15px;
 }
-.menu ul{
-   
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        color: #8b8b8b;
-        margin-left: 15px;
-    
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  color: #8b8b8b;
+  margin-left: 15px;
 }
 
-.menu ul li a{
-    color:#ffffff;
-    text-decoration: initial;
-    font-size: 18px;
-    
+.menu ul li a {
+  color: #ffffff;
+  text-decoration: initial;
+  font-size: 18px;
 }
-.menu ul li a:hover{
-
-    border-bottom: 3px dotted #8b8b8b;
-    color: #8b8b8b;
-    opacity: 50%;
+.menu ul li a:hover {
+  border-bottom: 3px dotted #8b8b8b;
+  color: #8b8b8b;
+  opacity: 50%;
 }
-.menu{
-   width: 70%;
-   float: left;
+.menu {
+  width: 70%;
+  float: left;
 }
-.busca{
-    width: 30%;
-    float: right;
-    text-align: center;
+.busca {
+  width: 30%;
+  float: right;
+  text-align: center;
 }
-.busca input{
-    background-image: url("../img/search-icon.png");
-    background-repeat: no-repeat;
-    margin-top: 15px;
-    background-position: 96%;
-    border: 1px solid #8b8b8b;
-    
+.busca input {
+  background-image: url("../img/search-icon.png");
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  background-position: 96%;
+  border: 1px solid #8b8b8b;
 }
-.col-100{
-    width: 100%;
-    float: left;
-    position: relative;
+.col-100 {
+  width: 100%;
+  float: left;
+  position: relative;
 }
 button.slick-prev {
-    font-size: 0px;
-    border: none;
-    width: 25px;
-    height: 51px;
-    z-index: 9;
-    background-color: transparent;
-    position: absolute;
-    
-    top: 35%;
-    left: 14%;
+  font-size: 0px;
+  border: none;
+  width: 25px;
+  height: 51px;
+  z-index: 9;
+  background-color: transparent;
+  position: absolute;
 
+  top: 35%;
+  left: 14%;
 }
 button.slick-next {
-    font-size: 0px;
-    border: none;
-    width: 25px;
-    height: 51px;
-    z-index: 9;
-    background-color: transparent;
-    position: absolute;
-    
-    top: 35%;
-    right: 14%;
+  font-size: 0px;
+  border: none;
+  width: 25px;
+  height: 51px;
+  z-index: 9;
+  background-color: transparent;
+  position: absolute;
 
+  top: 35%;
+  right: 14%;
 }
-.slick-list{
-    width: 100%!important;
+.slick-list {
+  width: 100% !important;
 }
-.slick-initialized{
-    overflow: hidden;
+.slick-initialized {
+  overflow: hidden;
 }
-.slick-dots li button{
-    font-size: 0px;
-    border: 3px solid #8b8b8b;
-    width: 26px;
-    height: 26px;
-    background: transparent;
-    border-radius: 50%;
-    cursor: pointer;
-    margin-left: 10px;
+.slick-dots li button {
+  font-size: 0px;
+  border: 3px solid #8b8b8b;
+  width: 26px;
+  height: 26px;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 10px;
 }
-.slick-dots{
-    margin: 0 auto;
-    width: 50%;
-    position: absolute;
-    left: 50%;
-    top: 90%;
-}
-
-li.slick-active button{
-    background: white;
-
-}
-.slick-dots li{
-    display: inline-block;
+.slick-dots {
+  margin: 0 auto;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 90%;
 }
 
-.news{
-    width: 100%;
-    float: left;
-    position: relative;
-    border-top: 3px solid #8b8b8b;
+li.slick-active button {
+  background: white;
 }
-.nick-news{
-    
-    display: flex;
-    justify-content: space-around;
-    font-size: 32px;
-    margin-top: 10px;
-    color: #ffffff;
-    list-style: none;
-    
+.slick-dots li {
+  display: inline-block;
 }
 
-.nick-news li a{
-    display: flex;
-    justify-content: space-around;
-    font-size: 32px;
-    margin-top: 10px;
-    color: #ffffff;
-    list-style: none;
-    text-decoration: none;
-    
+.news {
+  width: 100%;
+  float: left;
+  position: relative;
+  border-top: 3px solid #8b8b8b;
+}
+.nick-news {
+  display: flex;
+  justify-content: space-around;
+  font-size: 32px;
+  margin-top: 10px;
+  color: #ffffff;
+  list-style: none;
 }
 
-.nick-news li a:hover{
-    border-bottom: 3px dotted #8b8b8b;
+.nick-news li a {
+  display: flex;
+  justify-content: space-around;
+  font-size: 32px;
+  margin-top: 10px;
+  color: #ffffff;
+  list-style: none;
+  text-decoration: none;
 }
 
-.blocks ul{
-    margin-top: 7px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-}
-.blocks ul li{
-    width: 33%;
-    height: 150px;
-    margin-left: 5px;
-    margin-right: 5px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    border: 3px solid #8b8b8b;
+.nick-news li a:hover {
+  border-bottom: 3px dotted #8b8b8b;
 }
 
+.blocks ul {
+  margin-top: 7px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.blocks ul li {
+  width: 33%;
+  height: 150px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  border: 3px solid #8b8b8b;
+}
 
+.header-4 {
+  bottom: 0;
 
-.header-4{
-    
-    width: 980px;  
-    bottom: 0;
-    position: relative;
-    border-top: 3px solid #8b8b8b;
-    display: flex;
-    justify-content: space-around;
-    height: 200px;
-    width: 100%;
-    background-color: #000000;
+  position: fixed;
+  border-top: 3px solid #8b8b8b;
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  width: 100%;
+  background-color: #000000;
 }
-.logo2{
-    display: flex;
-    padding: 8px;
-    width: 15%;
+.logo2 {
+  display: flex;
+  padding: 8px;
+  width: 15%;
 }
-.redes-sociais2{
-    width: 10%;
-    
+.redes-sociais2 {
+  width: 10%;
 }
-    
-.redes-sociais2 ul li:hover{
-    opacity: 50%;
-    list-style: none;       
+
+.redes-sociais2 ul li:hover {
+  opacity: 50%;
+  list-style: none;
 }
-.cont{
-    
-    width: 40%;
-    font-size: 20px;
-    color: #8b8b8b;
+.cont {
+  width: 40%;
+  font-size: 20px;
+  color: #8b8b8b;
 }
 .cont ul {
-    margin-top: 50px;
-    list-style: none;
-    font-size: 12px;
-    
+  margin-top: 50px;
+  list-style: none;
+  font-size: 12px;
 }
 .cont ul li {
-    margin-top: 10px;
-    margin-bottom: 10px;
-
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.cont li{
-    list-style: none;
-    margin-top: 40px;
+.cont li {
+  list-style: none;
+  margin-top: 40px;
 }
-.header-3{
-    width: 100%;
-    float: left;
-    position: relative;
+.header-3 {
+  width: 100%;
+  float: left;
+  position: relative;
 }
 button.slick-prev {
-    font-size: 0px;
-    border: none;
-    width: 25px;
-    height: 51px;
-    z-index: 9;
-    background-color: transparent;
-    position: absolute;
-    
-    top: 35%;
-    left: 14%;
+  font-size: 0px;
+  border: none;
+  width: 25px;
+  height: 51px;
+  z-index: 9;
+  background-color: transparent;
+  position: absolute;
 
+  top: 35%;
+  left: 14%;
 }
 button.slick-next {
-    font-size: 0px;
-    border: none;
-    width: 25px;
-    height: 51px;
-    z-index: 9;
-    background-color: transparent;
-    position: absolute;
-    
-    top: 35%;
-    right: 14%;
+  font-size: 0px;
+  border: none;
+  width: 25px;
+  height: 51px;
+  z-index: 9;
+  background-color: transparent;
+  position: absolute;
 
+  top: 35%;
+  right: 14%;
 }
-.slick-list{
-    width: 100%!important;
+.slick-list {
+  width: 100% !important;
 }
-.slick-initialized{
-    overflow: hidden;
+.slick-initialized {
+  overflow: hidden;
 }
-.slick-dots li button{
-    font-size: 0px;
-    border: 3px solid #8b8b8b;
-    width: 26px;
-    height: 26px;
-    background: transparent;
-    border-radius: 50%;
-    cursor: pointer;
-    margin-left: 10px;
+.slick-dots li button {
+  font-size: 0px;
+  border: 3px solid #8b8b8b;
+  width: 26px;
+  height: 26px;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 10px;
 }
-.slick-dots{
-    margin: 0 auto;
-    width: 50%;
-    position: absolute;
-    left: 50%;
-    top: 90%;
+.slick-dots {
+  margin: 0 auto;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 90%;
 }
 
-li.slick-active button{
-    background: white;
-
+li.slick-active button {
+  background: white;
 }
-.slick-dots li{
-    display: inline-block;
+.slick-dots li {
+  display: inline-block;
+}
+
+.aux {
+  height: 400px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.aux2 {
+  height: 400px;
+  width: 100%;
+  background-color: transparent;
+}
+.header5 {
+  background-color: transparent;
 }
